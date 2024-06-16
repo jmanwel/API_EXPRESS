@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch index.js",
+    "start": "node index.js",
     "test": "mocha ./test/tests.js"
   },
   "author": "JMG",
