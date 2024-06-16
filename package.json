@@ -1,0 +1,30 @@
+{
+  "name": "api_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "mocha ./test/tests.js"
+  },
+  "author": "JMG",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.1.1",
+    "chai-http": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.4.0",
+    "mongoose": "^8.4.1",
+    "passport": "^0.7.0",
+    "passport-http": "^0.3.0",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "rewire": "^7.0.0",
+    "sinon": "^18.0.0"
+  }
+}
