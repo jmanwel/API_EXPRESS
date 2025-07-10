@@ -25,7 +25,7 @@ jobs:
           cache: npm
        
       - name: "Install dependencies"
-        if: steps.cache-node_modules.cache-hit == "false"
+        if: steps.cache-node_modules.cache-hit == 'false'
         run: npm ci
       
       - name: "Test"
