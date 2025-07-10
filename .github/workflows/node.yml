@@ -31,8 +31,6 @@ jobs:
       - name: "Test"
         run: npm run test
 
-      - name: Ansible-lint
-        uses: ansible/ansible-lint@main
-        with:
-          setup_python: "false"
+      - name: Lint
+        run: npm run linter
 ...
