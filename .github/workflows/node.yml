@@ -11,7 +11,7 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
  
-      - name: "Cche dependencies"
+      - name: "Cache dependencies"
         id: cache-node-modules
         uses: actions/cache@v4
         with:
